@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+<form action="dee.html">
+	<fieldset>
+		<legend>Your Details:</legend>
+		<label>Name:</label>
+		<input type="text" name="name" required="required">
+		<label>Email:</label>
+		<input type="Email" name="email" required="required">
+	</fieldset><br><br>
+
+<fieldset>
+	<legend>Your Review:</legend>
+	<p>How did you hear about us?
+	<select>
+		<option>Google</option>
+		<option>Friends</option>
+		<option>Colleges</option>
+	</select>
+	</p>
+
+	<p>Would you visit again?</p>
+	<input type="radio" name="yes" checked="checked">Yes
+	<input type="radio" name="no">No
+	<input type="radio" name="maybe">Maybe
+
+    <p>Comments:</p>
+    <textarea name="comments" width=10></textarea><br>
+
+    <input type="checkbox" name="check">Sign me up for email updates<br>
+    <input type="submit" name="submit" value="Submit review">
+
+</fieldset>
+
+</form>
+</body>
+</html>
