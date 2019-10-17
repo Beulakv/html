@@ -1,0 +1,132 @@
+body
+{
+	background-image: url(../img/dark-wood.jpg);
+	width: 90%;
+	
+}
+.form
+{
+	padding-right: 94px;
+	padding-left: 180px;
+	padding-top: -50px;
+	margin-top: 3px;
+	overflow: hidden;
+	width: 80%;
+}
+#head2
+{
+	color: black;
+}
+#img1
+{
+   width: 100%;
+   height: 120px;
+   
+}
+.img1
+{
+	padding-top: 10px;
+	padding-left: 10px;
+
+}
+.img2
+{
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.nav
+{
+	width: 72%;
+	position:fixed;
+   margin-top:  -36px;
+   padding-top: 0px;
+   height: 20%;
+}
+#ul1
+{
+	list-style-type: none;
+    margin-left:  0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+   color: white;
+
+
+}
+li
+{
+	display: inline-block;
+}
+
+li a {
+
+	
+	float: left;
+	margin-top: 0;
+display: block;
+color: white;
+text-align: center;
+padding: 10px 10px;
+text-decoration: none;
+}
+li a:hover:not(.active){
+   color: black;
+}
+.active{
+color: black;
+}
+.divider
+{
+
+	margin-top:  -20px;
+   padding-top: 5%;
+	column-count: 3;
+	/*width: 30%;*/
+	background-color: white;
+}
+h2
+{
+	font-family: 'Libre Baskerville' , sans-serif;
+	color: red;
+}
+h3
+{
+	font-family: 'Cormorant' , sans-serif;
+	color: red;
+}
+.para1
+{
+	color: black;
+}
+ul
+{
+	list-style-type: none;
+    margin-left:  0;
+    padding: 0;
+    overflow: hidden;
+   color: black;
+
+}
+#rside
+{
+	text-decoration: none;
+	color: red;
+}
+#con
+{
+	color: red;
+}
+.rightside
+{
+
+	padding-right: 80px;
+}
+.footer
+{
+    margin-left:  0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+   color: white;
+   padding-left: 50px;
+}
