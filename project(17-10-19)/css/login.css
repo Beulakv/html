@@ -1,0 +1,65 @@
+body
+{
+	/*background-image: url(../resource/e1.png);
+	background-repeat: no-repeat;*/
+	width: 80%;
+	
+	/*background-color: white;*/
+}
+.img
+{
+	margin-left:    40%;
+	margin-top: 0px;
+	position: absolute;
+}
+.img1
+{
+	margin-left: 10%;
+	margin-top: 1%;
+	position: absolute;
+	font-size: 40px;
+}
+.form
+{
+   padding-top: 20%;
+   padding-left: 15%;
+   font-size: 20px;
+   
+}
+h3
+{
+	font-family: 'courier', sans-serif;
+   color: #aaa;
+   font-style: normal;
+	font-weight: normal;
+   
+}
+#name
+{
+	border-radius: 6px;
+	padding-left: 5px;
+	width: 30%;
+	height: 40px;
+	border-width: 1px;
+	font-size: 15px;
+	font-weight: normal;
+	border-color: #ccc;
+	border-style:solid;
+}
+#btn
+{
+	border-radius: 6px;
+    background-color: transparent;
+    width: 15%;
+    height: 40px;
+    font-size: 15px;
+    border-width: 1px;
+    border-color: #ccc;
+    border-style: solid;
+    
+}
+a
+{
+	text-decoration: none;
+	color: green;
+}
